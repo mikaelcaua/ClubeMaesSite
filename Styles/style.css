@@ -6,14 +6,15 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 header{
-
     text-align: center;
-    background-image: url(../Images/FundoGeral.jpg);
+    background-image: url(../Images/aa.jpg);
     background-size: cover;
     padding: 20px 0px 5px 0px;
+    background-repeat: no-repeat;
 }
 
 header img{
@@ -43,6 +44,19 @@ header menu a:hover{
     
 }
 
+h1{
+    font-family: 'Teko', sans-serif;
+}
+
+p{
+    font-family: 'Jost', sans-serif;
+}
+
+
+/* PÁGINA HOME */
+/* PÁGINA HOME */
+/* PÁGINA HOME */
+
 main{
     box-shadow: 0px 5px 20px black;
     background-color: white;
@@ -61,7 +75,6 @@ main{
 }
 
 .boxInformationClube>h1{
-    font-family: 'Teko', sans-serif;
     text-align: center;
     font-size: 45px;
     color: rgba(255, 255, 255, 1);
@@ -78,7 +91,6 @@ main{
     padding: 5px 20px 20px 20px;
     margin: 0px 30px 0px 30px;
     max-width: 450px;
-    font-family: 'Jost', sans-serif;
     font-size: 20px;
     color: rgba(255, 255, 255, 0.95);
     background-color: rgba(0, 0, 0, 0.5);
@@ -87,7 +99,8 @@ main{
 .boxHistoryClube{
     text-align: center;
     padding: 30px 0px 30px 0px;
-    background-image: url(../Images/FundoGeral.jpg);
+    background-image: url(../Images/aa.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     box-shadow: 1px -2px 17px black;
@@ -95,7 +108,6 @@ main{
 }
 
 .boxHistoryClube>h1{
-    font-family: 'Teko', sans-serif;
     font-size: 50px;
 }
 
@@ -104,7 +116,6 @@ main{
     max-width: 800px;
     padding: 0px 25px 0px 25px;
     margin: auto;
-    font-family: 'Jost', sans-serif;
     font-size: 27px;
     text-align: justify;
 }
@@ -124,3 +135,63 @@ footer img{
 footer a{
     padding: 0px 10px 0px 10px;
 }
+
+
+/* PÁGINA PROJETOS */
+/* PÁGINA PROJETOS */
+/* PÁGINA PROJETOS */
+
+.projects{
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px -3px 6px 9px white;
+
+}
+
+.projects h1{
+    font-size: 60px;
+}
+
+.allCardsProjects{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.cardProject{
+    margin: 20px 20px 30px 20px;
+    display: inline-block;
+    width: 270px;
+    height: 370px;
+    background-image: url("../Images/fundoCardProject.png");
+    background-size: cover;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+}
+
+.cardProject>h1{
+    
+    padding: 10px 5px 0px 5px;
+    font-size: 25px;
+    min-height: 72px;
+    /* vertical-align: middle; */
+    align-items: center;
+    color: rgba(0, 0, 0, 0.89);
+    display: flex;
+    justify-content: center; 
+}
+
+.cardProject>img{
+    width: 100%;
+    height: 80px;
+   
+}
+
+.cardProject>p{
+    padding: 10px 10px 0px 10px ;
+    text-align: justify;
+}
+
