@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+
+    text-align: center;
+    background-image: url(../Images/FundoGeral.jpg);
+    background-size: cover;
+    padding: 20px 0px 5px 0px;
+}
+
+header img{
+    margin: 30px 0px 30px 0px;
+    max-width: 500px;
+    min-width: 200px;
+    width: 70%;
+    height: 30%;
+}
+
+header menu {
+    text-align: left;
+}
+
+header menu a{
+    padding: 0px 2.5% 0px 2.5%;
+    text-decoration: none;
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.849);
+}
+
+header menu a:hover{
+    background-color: rgba(255, 255, 255, 0.377);
+    border-radius: 5px;
+    
+    
+}
+
+main{
+    box-shadow: 0px 5px 20px black;
+    background-color: white;
+}
+
+.boxInformationClube{
+    
+    text-align: justify;
+    background-image: url("../Images/FundoInformationClube.jpeg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+.boxInformationClube>h1{
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-size: 45px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 450px;
+    padding: 30px 20px 5px 20px;
+    margin: 0px 30px 0px 30px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+.boxInformationClube>p{
+    border-radius: 0px 0px 10px 10px;
+    padding: 5px 20px 20px 20px;
+    margin: 0px 30px 0px 30px;
+    max-width: 450px;
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.boxHistoryClube{
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+    background-image: url(../Images/FundoGeral.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px -2px 17px black;
+   
+}
+
+.boxHistoryClube>h1{
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+}
+
+.boxHistoryClube>p{
+
+    max-width: 800px;
+    padding: 0px 25px 0px 25px;
+    margin: auto;
+    font-family: 'Jost', sans-serif;
+    font-size: 27px;
+    text-align: justify;
+}
+
+footer{
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    background-color:#FFC7EA; 
+    box-shadow: 0px -6px 10px white;   
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+}
+
+footer a{
+    padding: 0px 10px 0px 10px;
+}
