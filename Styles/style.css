@@ -155,7 +155,7 @@ footer a{
 
 .allCardsProjects{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     flex-wrap: wrap;
     max-width: 1000px;
     margin: auto;
