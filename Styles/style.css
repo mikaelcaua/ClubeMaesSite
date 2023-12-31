@@ -11,7 +11,7 @@
 
 header{
     text-align: center;
-    background-image: url(../Images/aa.jpg);
+    background-image: url(../Images/FundoGeral.jpg);
     background-size: cover;
     padding: 20px 0px 5px 0px;
     background-repeat: no-repeat;
@@ -29,12 +29,24 @@ header menu {
     text-align: left;
 }
 
+@media screen and (max-width:550px){
+    header menu{
+        text-align: center;
+    }
+}
+
 header menu a{
     padding: 0px 2.5% 0px 2.5%;
     text-decoration: none;
     font-family: 'Teko', sans-serif;
     font-size: 25px;
     color: rgba(0, 0, 0, 0.849);
+}
+
+@media screen and (max-width:550px){
+    header menu a{
+        padding: 0px 5.5% 0px 5.5%;
+    }
 }
 
 header menu a:hover{
@@ -52,6 +64,33 @@ p{
     font-family: 'Jost', sans-serif;
 }
 
+footer{
+    
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    background-color:#FFC7EA; 
+    box-shadow: 0px -6px 10px white;   
+    bottom: 0%;
+    width: 100%;
+ 
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+}
+
+footer p{
+    font-size: 13px;
+}
+
+footer a{
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 9px;
+}
 
 /* PÁGINA HOME */
 /* PÁGINA HOME */
@@ -99,7 +138,7 @@ main{
 .boxHistoryClube{
     text-align: center;
     padding: 30px 0px 30px 0px;
-    background-image: url(../Images/aa.jpg);
+    background-image: url(../Images/FundoGeral.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -120,23 +159,6 @@ main{
     text-align: justify;
 }
 
-footer{
-    padding: 10px 0px 10px 0px;
-    text-align: center;
-    background-color:#FFC7EA; 
-    box-shadow: 0px -6px 10px white;   
-}
-
-footer img{
-    width: 40px;
-    height: 40px;
-}
-
-footer a{
-    padding: 0px 10px 0px 10px;
-}
-
-
 /* PÁGINA PROJETOS */
 /* PÁGINA PROJETOS */
 /* PÁGINA PROJETOS */
@@ -146,8 +168,10 @@ footer a{
     text-align: center;
     background-color: white;
     box-shadow: 0px -3px 6px 9px white;
-
+    min-height: 100vh;
 }
+
+
 
 .projects h1{
     font-size: 60px;
